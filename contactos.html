@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FAVICON - ICONO DEL NAVEGADOR -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FONTAWESOME - LIBRERIA DE ICONOS -->
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+
+    <!-- LIBRERÍA DE FUENTES - GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="css/styles-contactos.css" crossorigin="anonymous">
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <!-- INICIO DE WHATSAPP -->
+    <a href="https://wa.link/w67qwl" target="_blank" class="botton-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <!-- FIN DE WHATSAPP -->
+
+       <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Logo.svg" alt="" class="img-fluid img-logo" />
+                </a>
+                <a href="#" class="btn-menu" id="btn-menu">
+                    <i class="fa-solid fa-bars icono-menu"></i>
+                </a>
+            </div>
+            <div class="enlaces" id="enlaces">
+                <a href="index.html">INICIO</a>
+                <a href="cursos.html">CURSOS</a>
+                <a href="especializaciones.html">ESPECIALIZACIONES</a>
+                <a href="contactos.html">CONTACTOS</a>
+                <a href="registro.html">AULA VIRTUAL</a>
+            </div>
+        </nav>
+    </header> 
+
+    <article class="container">
+        <form action="enviar.php" method="post">
+        <section class="row">
+            <section class="col-xs-12 col-sm-6 col-md-6">
+                <img src="img/contacto.jpg" alt="" class="img-fluid">
+            </section>
+            <section class="col-xs-12 col-sm-6 col-md-6">
+                <label>Nombre: </label>
+                <input type="text" placeholder="Ingrese su nombre" required>
+
+                <label>Correo: </label>
+                <input type="email" placeholder="Ingrese su correo" required>
+
+                <label>Celular: </label>
+                <input type="tel" placeholder="Ingrese su teléfono y/o celular" required>
+
+                <!--select>
+                    <option value="">Elige una opcion: </option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select> -->
+                
+                <textarea placeholder="Escriba aquí su mensaje" required></textarea>
+
+                <input type="submit" value="Registrar" class="boton">
+
+            </section>
+        </section>
+        </form>
+    </article>
+    <a href="https://wa.link/w67qwl" target="_blank" class="botton-whatsapps"><i class="fa-brands fa-whatsapp"></i></a>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p>Contacto</p>
+                <p>+51 939 123 987</p>
+                <p>+51 939 123 987 (Whatsapp)</p>
+            </div>
+            <div class="footer-item">
+                <i class="fas fa-envelope"></i>
+                <p>E-Mail</p>
+                <p>devlab.pe@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Dirección</p>
+                <p>Lima - Perú</p>
+            </div>
+        </div>
+            <div class="custom-footer">
+                <div class="footer-content">
+                    <p class="left">DEVLAD SOLUCIONES INFORMÁTICAS SAC @2022 – Todos los derechos reservados</p>
+                    <p class="right">Desarrollado por <span>Giancarlos Barboza N.</span></p>
+                </div>
+            </div>
+        
+    </footer>
+
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
+
+</body>
+</html>

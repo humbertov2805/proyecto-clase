@@ -1,0 +1,86 @@
+/* SELECTOR PADRE */
+:root {
+    --color-primario: #EC111A;
+    --color-secundario: #0822b5;
+    --color-terciario: #007BDF;
+    --color-parrafos: #53575A;
+    --color-titulos: #282D31;
+    --color-sombras: #282D31;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+/* SELECTOR UNIVERSAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* SELECTOR DE ETIQUETA */
+form {
+    max-width: 700px;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 2px 4px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 3em;
+}
+label {
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+input {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: .8em;
+    border-radius: .6em;
+    font-family: 'Quicksand';
+    font-size: 1em;
+    font-weight: 700;
+}
+select {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: .8em;
+    border-radius: .6em;
+    font-family: 'Quicksand';
+    font-size: 1em;
+    font-weight: 600;
+}
+
+option {
+    font-weight: 600;
+}
+.boton {
+    background-color: var(--color-primario);
+    color: #fff;
+    font-weight: bold;
+    padding: 1.5em;
+    margin-top: .7em;
+    border-color: var(--color-primario);
+}
+
+.boton:hover {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    transition: background-color .5s ease-in-out;
+    transition: border-color .5s ease-in-out;
+}
+h2 {
+    color: var(--color-primario);
+    font-family: 'Quicksand';
+    margin-bottom: 16px;
+}
+h4 {
+    font-family: 'Quicksand';
+    margin-bottom: 2em;
+}
+a {
+    color: var(--color-primario);
+}
+p {
+    font-weight: 600;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+}
